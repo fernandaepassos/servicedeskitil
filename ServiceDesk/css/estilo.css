@@ -1,0 +1,1060 @@
+/* HEADER */
+
+.menuItens {
+    border-top: 2px solid #2ba7a7;
+}
+
+.headerTop {
+    height: 78px;
+    display: flex;
+    border: 2px solid #2ba7a7;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    background: linear-gradient(to bottom, #98d4d5 0%,#9cd6d7 3%,#a7dadb 5%,#a7dadb 9%,#a1d9d8 10%,#98d4d4 11%,#6ac2c3 16%,#63bebf 18%,#51b7b9 23%,#2ba7a7 37%,#2ba7a7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.headerLinks{
+    display: flex; 
+    justify-content: center;
+    margin-top: -2px;
+}
+
+.fundoMenu {
+    width: 180px;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #049494;
+    height: 26px;
+    background: linear-gradient(to bottom, #fafafc 0%,#d8dfe7 40%,#d7dee6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+/* Login style */
+
+.header {
+    background-image: url("../images/default/fundo_cima.gif");
+    background-repeat: no-repeat;
+    width: 95%;
+    height: 125px;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 10px;
+}
+
+.header img {
+    padding-left: 20px;
+}
+
+.header span {
+    padding-left: 60px;
+    color: #49ABAB;
+}
+
+.footer {
+    color: #49ABAB;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.loginBox {
+    background: white;
+    border: 1px solid #aedbdc;
+    width: 95%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.validator {
+    /*color: #ff5050;*/
+    width: 400px;
+}
+
+.login-center {
+    margin-right: 15px;
+    width: 120px;
+    height: 30px;
+    font-size: 1em;
+    font-family: Verdana;
+    color: #284775;
+    border-width: 1px;
+    border-style: Solid;
+    border-color: #CCCCCC;
+    background-color: #FFFBFF;
+}
+
+.cbRemember {
+    padding-left: 20px;
+}
+/* end Login style */
+
+.body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    overflow: auto;
+    background-color: #F0F9F9;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+.bodyDataGrid {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    overflow: auto;
+    background-color: #F0F9F9;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    scrollbar-arrow-color: #81C2C5;
+    scrollbar-3dlight-color: #81C2C5;
+    scrollbar-highlight-color: #ffffff;
+    scrollbar-face-color: #ffffff;
+    scrollbar-shadow-color: #81C2C5;
+    scrollbar-darkshadow-color: #ffffff;
+    scrollbar-track-color: transparent;
+}
+
+.tabela_padrao {
+    background-color: #F0F0F0;
+    border: 1px solid #7EC9CB;
+    FONT-FAMILY: Trebuchet Ms, Tahoma, Arial, Verdana, Tahoma, Georgia, Arial, Georgia, "Times New Roman", Times, serif;
+    TEXT-DECORATION: none;
+    FONT-SIZE: 12px;
+}
+
+.tabela_padrao2 {
+    border: 1px solid #3D8D8E;
+    FONT-FAMILY: Trebuchet Ms, Tahoma, Arial, Verdana, Tahoma, Georgia, Arial, Georgia, "Times New Roman", Times, serif;
+    TEXT-DECORATION: none;
+    FONT-SIZE: 12px;
+}
+
+.tabela_abas {
+    border-top-width: 1px;
+    border-top-style: double;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-top-color: #7EC9CB;
+    FONT-FAMILY: Trebuchet Ms, Tahoma, Arial, Verdana, Tahoma, Georgia, Arial, Georgia, "Times New Roman", Times, serif;
+    TEXT-DECORATION: none;
+    FONT-SIZE: 12px;
+    /*font-weight:bold;*/
+}
+
+.linha {
+    border-bottom-width: 1px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: double;
+    border-left-style: none;
+    border-bottom-color: #7EC9CB;
+}
+
+.tabela_aviso {
+    filter: progid:DXImageTransform.Microsoft.Gradient(startColorstr='#E3e3e3', endColorstr='#F9F9F9', gradientType='0');
+    background-color: #FFFFFF;
+    color: #255A5A;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-style: double;
+    border-right-style: none;
+    border-bottom-style: double;
+    border-left-style: none;
+    border-top-color: #999999;
+    border-bottom-color: #999999;
+    FONT-FAMILY: Trebuchet Ms, Tahoma, Arial, Verdana, Tahoma, Georgia, Arial, Georgia, "Times New Roman", Times, serif;
+    TEXT-DECORATION: none;
+    FONT-SIZE: 16px;
+    FONT-WEIGHT: bold;
+    /*font-weight:bold;*/
+}
+
+
+.fonte_data {
+    font-family: Trebuchet Ms, Tahoma, Arial;
+    font-weight: bold;
+    font-size: 12px;
+    color: #ffffff;
+    font-style: normal;
+    text-decoration: none;
+    align-self: flex-end;
+}
+
+.default {
+    font-family: "Trebuchet MS", Arial, Verdana;
+    font-size: 10px;
+    letter-spacing: 5px;
+}
+
+.tituloFont {
+    FONT-SIZE: 12px;
+    color: #0E6485;
+    font-weight: bold;
+}
+
+.campo_texto {
+    border: 1px double #3D8D8E;
+    height: 19px;
+    background-color: #ffffff;
+    font-family: Trebuchet Ms, Tahoma, Arial;
+    font-size: 11;
+    text-decoration: none;
+    color: #333333;
+}
+/************************* NOVA TABELA ******************************/
+
+.fundo_tabela {
+    background-color: #F8FCFC;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: none;
+    border-right-style: double;
+    border-bottom-style: none;
+    border-left-style: double;
+    border-left-color: #2BA7A7;
+    border-right-color: #2BA7A7;
+    FONT-FAMILY: Trebuchet Ms, Tahoma, Arial, Verdana, Tahoma, Georgia, Arial, Georgia, "Times New Roman", Times, serif;
+    TEXT-DECORATION: none;
+    FONT-SIZE: 12px;
+}
+
+.centro_top {
+    text-align: left;
+    height: 22px;
+    background-image: url(../images/centro_top.gif);
+    background-position: top;
+    font-family: Trebuchet MS, Verdana, Tahoma;
+    font-size: 11px;
+}
+
+.esq_top {
+    background-image: url(../images/esq_top.gif);
+    background-position: top;
+    width: 8px;
+    height: 22px;
+}
+
+.dir_top {
+    background-image: url(../images/dir_top.gif);
+    background-position: top;
+    width: 8px;
+    height: 22px;
+}
+
+.dir_lado {
+    background-image: url(../images/dir_lado.gif);
+    width: 8px;
+}
+
+.esq_lado {
+    background-image: url(../images/esq_lado.gif);
+    width: 8px;
+}
+
+.centro_down {
+    text-align: left;
+    height: 7px;
+    background-image: url(../images/centro_down.gif);
+    background-position: top;
+}
+
+.esq_down {
+    background-image: url(../images/esq_down.gif);
+    width: 8px;
+    height: 7px;
+}
+
+.dir_down {
+    background-image: url(../images/dir_down.gif);
+    width: 8px;
+    height: 7px;
+}
+
+
+/************************** DESCRICAO *******************************/
+
+.campo_descricao200 {
+    border: whitesmoke 1px solid;
+    text-transform: none;
+    font-family: Trebuchet Ms, Tahoma, Arial, Verdana, Tahoma, Georgia, Arial, Georgia, "Times New Roman", Times, serif;
+    font-size: 12px;
+    background-color: transparent;
+    scrollbar-arrow-color: transparent;
+    scrollbar-3dlight-color: #ffffff;
+    scrollbar-highlight-color: #ffffff;
+    scrollbar-face-color: #ffffff;
+    scrollbar-shadow-color: #81C2C5;
+    scrollbar-darkshadow-color: #ffffff;
+    scrollbar-track-color: transparent;
+    color: #0E3434;
+    width: 200px;
+    height: 25px;
+}
+
+.campo_descricao300 {
+    border: whitesmoke 1px solid;
+    text-transform: none;
+    font-family: Trebuchet Ms, Tahoma, Arial, Verdana, Tahoma, Georgia, Arial, Georgia, "Times New Roman", Times, serif;
+    font-size: 12px;
+    background-color: transparent;
+    scrollbar-arrow-color: transparent;
+    scrollbar-3dlight-color: #ffffff;
+    scrollbar-highlight-color: #ffffff;
+    scrollbar-face-color: #ffffff;
+    scrollbar-shadow-color: #81C2C5;
+    scrollbar-darkshadow-color: #ffffff;
+    scrollbar-track-color: transparent;
+    color: #0E3434;
+    width: 300px;
+    height: 25px;
+}
+
+.campo_descricao350 {
+    border: whitesmoke 1px solid;
+    text-transform: none;
+    font-family: Trebuchet Ms, Tahoma, Arial, Verdana, Tahoma, Georgia, Arial, Georgia, "Times New Roman", Times, serif;
+    font-size: 12px;
+    background-color: transparent;
+    scrollbar-arrow-color: transparent;
+    scrollbar-3dlight-color: #ffffff;
+    scrollbar-highlight-color: #ffffff;
+    scrollbar-face-color: #ffffff;
+    scrollbar-shadow-color: #81C2C5;
+    scrollbar-darkshadow-color: #ffffff;
+    scrollbar-track-color: transparent;
+    color: #0E3434;
+    width: 350px;
+    height: 25px;
+}
+
+.campo_descricao400 {
+    border: whitesmoke 1px solid;
+    text-transform: none;
+    font-family: Trebuchet Ms, Tahoma, Arial, Verdana, Tahoma, Georgia, Arial, Georgia, "Times New Roman", Times, serif;
+    font-size: 12px;
+    background-color: transparent;
+    scrollbar-arrow-color: transparent;
+    scrollbar-3dlight-color: #ffffff;
+    scrollbar-highlight-color: #ffffff;
+    scrollbar-face-color: #ffffff;
+    scrollbar-shadow-color: #81C2C5;
+    scrollbar-darkshadow-color: #ffffff;
+    scrollbar-track-color: transparent;
+    color: #0E3434;
+    min-width: 500px;
+    height: 50px;
+}
+
+.campo_descricao450 {
+    border: whitesmoke 1px solid;
+    text-transform: none;
+    font-family: Trebuchet Ms, Tahoma, Arial, Verdana, Tahoma, Georgia, Arial, Georgia, "Times New Roman", Times, serif;
+    font-size: 12px;
+    background-color: transparent;
+    scrollbar-arrow-color: transparent;
+    scrollbar-3dlight-color: #ffffff;
+    scrollbar-highlight-color: #ffffff;
+    scrollbar-face-color: #ffffff;
+    scrollbar-shadow-color: #81C2C5;
+    scrollbar-darkshadow-color: #ffffff;
+    scrollbar-track-color: transparent;
+    color: #0E3434;
+    width: 450px;
+    height: 25px;
+}
+
+.campo_descricao550 {
+    border: whitesmoke 1px solid;
+    text-transform: none;
+    font-family: Trebuchet Ms, Tahoma, Arial, Verdana, Tahoma, Georgia, Arial, Georgia, "Times New Roman", Times, serif;
+    font-size: 12px;
+    background-color: transparent;
+    scrollbar-arrow-color: transparent;
+    scrollbar-3dlight-color: #ffffff;
+    scrollbar-highlight-color: #ffffff;
+    scrollbar-face-color: #ffffff;
+    scrollbar-shadow-color: #81C2C5;
+    scrollbar-darkshadow-color: #ffffff;
+    scrollbar-track-color: transparent;
+    color: #0E3434;
+    width: 550px;
+    height: 25px;
+}
+
+
+.campo_descricao650 {
+    border: whitesmoke 1px solid;
+    text-transform: none;
+    font-family: Trebuchet Ms, Tahoma, Arial, Verdana, Tahoma, Georgia, Arial, Georgia, "Times New Roman", Times, serif;
+    font-size: 12px;
+    background-color: transparent;
+    scrollbar-arrow-color: #81C2C5;
+    scrollbar-3dlight-color: #ffffff;
+    scrollbar-highlight-color: #ffffff;
+    scrollbar-face-color: #ffffff;
+    scrollbar-shadow-color: #81C2C5;
+    scrollbar-darkshadow-color: #ffffff;
+    scrollbar-track-color: transparent;
+    color: #0E3434;
+    width: 650px;
+    height: 25px;
+}
+
+.campo_descricao700 {
+    border: whitesmoke 1px solid;
+    text-transform: none;
+    font-family: Trebuchet Ms, Tahoma, Arial, Verdana, Tahoma, Georgia, Arial, Georgia, "Times New Roman", Times, serif;
+    font-size: 12px;
+    background-color: transparent;
+    scrollbar-arrow-color: #81C2C5;
+    scrollbar-3dlight-color: #ffffff;
+    scrollbar-highlight-color: #ffffff;
+    scrollbar-face-color: #ffffff;
+    scrollbar-shadow-color: #81C2C5;
+    scrollbar-darkshadow-color: #ffffff;
+    scrollbar-track-color: transparent;
+    color: #0E3434;
+    width: 700px;
+    height: 25px;
+}
+
+.combo {
+    border: 1px double #3D8D8E;
+    height: 19px;
+    width: auto;
+    background-color: #f9f9f9;
+    font-family: Trebuchet Ms, Tahoma, Arial;
+    font-size: 11;
+    text-decoration: none;
+    color: #333333;
+}
+
+.botao {
+    background-color: #E9F5F5;
+    font-size: 10px;
+    font-family: Arial;
+    FONT-WEIGHT: bold;
+    border: 1px solid #3C8D8E;
+    color: #333333;
+    cursor: pointer;
+}
+
+.Mensagem {
+    filter: progid:DXImageTransform.Microsoft.Gradient(startColorstr='#D6DFE6', endColorstr='#FFFFFF', gradientType='0');
+    background-color: #FFFFFF;
+    color: #1D6E6F;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-style: double;
+    border-right-style: none;
+    border-bottom-style: double;
+    border-left-style: none;
+    border-top-color: #BDC9D5;
+    border-bottom-color: #BDC9D5;
+    FONT-FAMILY: Trebuchet Ms, Tahoma, Arial, Verdana, Tahoma, Georgia, Arial, Georgia, "Times New Roman", Times, serif;
+    TEXT-DECORATION: none;
+    FONT-SIZE: 11px;
+    FONT-WEIGHT: bold;
+    Height: 30px;
+    /*font-weight:bold;*/
+}
+
+    .Mensagem span {
+        margin: 5 5 5 5;
+        color: red;
+        font-size: 12;
+    }
+
+a.menu:link {
+    font-family: "Trebuchet MS", Arial, Verdana;
+    font-size: 10px;
+    color: #333333;
+    text-decoration: none;
+}
+
+a.menu:visited {
+    font-family: "Trebuchet MS", Arial, Verdana;
+    font-size: 10px;
+    color: #333333;
+    text-decoration: none;
+}
+
+a.menu:hover {
+    font-family: "Trebuchet MS", Arial, Verdana;
+    font-size: 10px;
+    color: #398C8C;
+    text-decoration: none;
+}
+
+a.menu:active {
+    font-family: "Trebuchet MS", Arial, Verdana;
+    font-size: 10px;
+    color: #333333;
+    text-decoration: none;
+}
+
+.dataGrid {
+    scrollbar-arrow-color: #81C2C5;
+    scrollbar-3dlight-color: #81C2C5;
+    scrollbar-highlight-color: #ffffff;
+    scrollbar-face-color: #ffffff;
+    scrollbar-shadow-color: #81C2C5;
+    scrollbar-darkshadow-color: #ffffff;
+    scrollbar-track-color: transparent;
+}
+
+.dataTree {
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-top-style: double;
+    border-right-style: double;
+    border-bottom-style: double;
+    border-left-style: none;
+    border-top-color: #81C2C5;
+    border-right-color: #81C2C5;
+    border-bottom-color: #81C2C5;
+    scrollbar-arrow-color: #81C2C5;
+    scrollbar-3dlight-color: #81C2C5;
+    scrollbar-highlight-color: #ffffff;
+    scrollbar-face-color: #ffffff;
+    scrollbar-shadow-color: #81C2C5;
+    scrollbar-darkshadow-color: #ffffff;
+    scrollbar-track-color: transparent;
+}
+
+
+/************************** ABAS *******************************/
+
+/* aba selecionada */
+.abas {
+    height: 22px;
+    overflow: hidden;
+    text-align: left;
+}
+
+.aba_centro_on {
+    text-align: left;
+    height: 19px;
+    background-image: url(../images/abas/aba_centro_on.gif);
+    background-position: top;
+    font-family: Trebuchet MS, Verdana, Tahoma;
+    font-size: 11px;
+}
+
+.aba_esquerda_on {
+    background-image: url(../images/abas/aba_esquerda_on.gif);
+    background-position: top;
+    width: 8px;
+    height: 19px;
+}
+
+.aba_direita_on {
+    background-image: url(../images/abas/aba_direita_on.gif);
+    background-position: top;
+    width: 25px;
+    height: 19px;
+}
+
+.aba_centro_on a, .aba_centro_on a:visited, .aba_centro_on a:hover {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* aba inativa */
+.aba_centro_off {
+    text-align: left;
+    height: 19px;
+    background-image: url(../images/abas/aba_centro_off.gif);
+    background-position: top;
+    font-family: Trebuchet MS, Verdana, Tahoma;
+    color: #0e3434;
+    font-size: 11px;
+}
+
+.aba_esquerda_off {
+    background-image: url(../images/abas/aba_esquerda_off.gif);
+    background-position: top;
+    width: 8px;
+    height: 19px;
+}
+
+.aba_direita_off {
+    background-image: url(../images/abas/aba_direita_off.gif);
+    background-position: top;
+    width: 25px;
+    height: 19px;
+}
+
+.aba_centro_off a, .aba_centro_off a:visited, .aba_centro_off a:hover {
+    color: #0E3434;
+    text-decoration: none;
+}
+
+    .aba_centro_off a:hover {
+        color: #217E7E;
+    }
+
+/************************** ABAS HEADER *******************************/
+
+/* aba selecionada */
+.abas2 {
+    height: 19px;
+    overflow: hidden;
+    text-align: left;
+}
+
+.aba_centro2_on {
+    text-align: left;
+    height: 19px;
+    background-image: url(../images/abas/aba_centro2_on.gif);
+    background-position: top;
+    font-family: Trebuchet MS, Verdana, Tahoma;
+    font-size: 11px;
+}
+
+.aba_esquerda2_on {
+    background-image: url(../images/abas/aba_esquerda2_on.gif);
+    background-position: top;
+    width: 8px;
+    height: 19px;
+}
+
+.aba_direita2_on {
+    background-image: url(../images/abas/aba_direita2_on.gif);
+    background-position: top;
+    width: 25px;
+    height: 19px;
+}
+
+.aba_centro2_on a, .aba_centro2_on a:visited, .aba_centro2_on a:hover {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* aba inativa */
+.aba_centro2_off {
+    text-align: left;
+    height: 19px;
+    background-position: top;
+    font-family: Trebuchet MS, Verdana, Tahoma;
+    font-size: 11px;
+}
+
+.aba_esquerda2_off {
+    background-image: url(../images/abas/aba_esquerda2_off.gif);
+    background-position: top;
+    width: 8px;
+    height: 19px;
+}
+
+.aba_direita2_off {
+    background-image: url(../images/abas/aba_direita2_off.gif);
+    background-position: top;
+    width: 25px;
+    height: 19px;
+}
+
+.aba_centro2_off a, .aba_centro2_off a:visited, .aba_centro2_off a:hover {
+    color: #0E3434;
+    text-decoration: none;
+}
+
+.aba_centro2_off a:hover {
+    color: #217E7E;
+}
+
+/************************** SEMAFORO *******************************/
+.semaforoWrap{
+    min-width:600px;
+    display:flex;
+    justify-content:center;
+    padding-top: 10px;
+}
+
+ .tabela_semaforo {
+     border-collapse:collapse;
+     background-color: #F0F0F0;
+     border: 1px solid #7EC9CB;
+     FONT-FAMILY: Trebuchet Ms, Tahoma, Arial, Verdana, Tahoma, Georgia, Arial, Georgia, "Times New Roman", Times, serif;
+     FONT-SIZE: 12px;
+ }
+
+ .tabela_semaforo thead {
+    background: linear-gradient(to bottom, #e2f1ee 0%,#eefaf8 5%,#f2fbfa 10%,#f1f7f7 15%,#f1f7f7 20%,#e7f3f1 30%,#e5f4f1 35%,#dff1f1 40%,#d8eceb 55%,#d7eced 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    font-size: 12px;
+    color: #003366;
+    height: 20px;
+ }
+
+  .tabela_semaforo tfoot {
+    background: linear-gradient(to bottom, #d7eced 0%,#d8eceb 45%,#dff1f1 60%,#e5f4f1 65%,#e7f3f1 70%,#f1f7f7 80%,#f1f7f7 85%,#f2fbfa 90%,#eefaf8 95%,#e2f1ee 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    font-size: 18px;
+    color: #003366;
+    height: 20px;
+    text-align: center;
+    font-weight:bold;
+ }
+
+  .tabela_semaforo th {
+   border-collapse:collapse;
+   border: 1px solid #ccc;
+   height: 30px;
+ }
+
+ .tabela_semaforo td {
+   border-collapse:collapse;
+   border: 1px solid #ccc;
+ }
+
+  .tabela_semaforo td.last {
+    width: 1px;
+    white-space: nowrap;
+ }
+
+/* abas */
+
+.aba {
+    min-width:65px;
+    width: 100px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.aba.critica {
+    background-color: #663366;
+}
+
+.aba.alta {
+    background-color: #FE0000;
+}
+
+.aba.media {
+    background-color: #FFCC00;
+}
+
+.aba.baixa {
+    background-color: #00CC99;
+}
+
+.aba.planejada {
+    background-color: #95D8DF;
+}
+
+/* fontes */
+.fonte {
+    font-weight: bold;
+    font-size: 15px;
+    min-width:65px;
+    width: 100px;
+    text-align:center;
+    /*font-family: Trebuchet Ms, Tahoma, Arial;
+    font-style: normal;
+    text-decoration: none;*/
+}
+
+.fonte.critica {
+    color: #663366;
+}
+
+.fonte.alta {
+    color: #FF0000;
+}
+
+.fonte.media {
+    color: #FF6600;
+}
+
+.fonte.baixa {
+    color: #339999;
+}
+
+.fonte.planejada {
+    color: #95D8DF;
+}
+
+.fonte_global {
+    font-family: Trebuchet Ms, Tahoma, Arial;
+    font-weight: bold;
+    font-size: 15px;
+    color: #006699;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.tabela_tree {
+  
+    FONT-FAMILY: Trebuchet Ms, Tahoma, Arial, Verdana, Tahoma, Georgia, Arial, Georgia, "Times New Roman", Times, serif;
+    TEXT-DECORATION: none;
+    FONT-SIZE: 12px;
+}
+
+.dataFont {
+    FONT-FAMILY: Trebuchet Ms, Tahoma, Arial, Verdana, Tahoma, Georgia, Arial, Georgia, "Times New Roman", Times, serif;
+    TEXT-DECORATION: none;
+    FONT-SIZE: 12px;
+}
+
+.topoGrid {
+    background-image: url(../images/abas/aba_centro_off.jpg);
+    background-position: top;
+    background-repeat: repeat-x;
+    font-family: Trebuchet MS, Verdana, Tahoma;
+    font-size: 11px;
+    color: #003366;
+    font-weight: bold;
+    height: 20px;
+    background-color: #D7ECED;
+}
+
+.footerGrid {
+    background-image: url(../images/abas/aba_cinza.jpg);
+    background-position: top;
+    background-repeat: repeat-x;
+    font-family: Trebuchet MS, Verdana, Tahoma;
+    font-size: 11px;
+    color: #003366;
+    font-weight: bold;
+    height: 10px;
+    background-color: #e1e1e1;
+}
+
+    .footerGrid a {
+        color: #003366;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+        .footerGrid a:hover {
+            color: #ff0000;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+.item {
+    font-family: Trebuchet MS, Verdana, Tahoma;
+    font-size: 11px;
+    color: #003366;
+    background-color: #ffffff;
+}
+
+    .item a {
+        color: #003366;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+        .item a:hover {
+            color: #ff0000;
+            text-decoration: underline;
+        }
+
+.itemAlternate {
+    font-family: Trebuchet MS, Verdana, Tahoma;
+    font-size: 11px;
+    color: #003366;
+    background-color: #f9f9f9;
+}
+
+    .itemAlternate a {
+        color: #003366;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+        .itemAlternate a:hover {
+            color: #ff0000;
+            text-decoration: underline;
+        }
+
+.itemHover {
+    font-family: Trebuchet MS, Verdana, Tahoma;
+    font-size: 11px;
+    background-color: #F2F8FF;
+    color: #ff0000;
+}
+
+    .itemhover a {
+        color: #ff0000;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+        .itemhover a:hover {
+            color: #ff0000;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+/*Estilos para divs que precisam de scroll 
+ ex.: Gridviews que precisam listar itens em uma região restrita da tela.
+*/
+
+
+.visible {
+    overflow: visible;
+}
+
+.hidden {
+    overflow: hidden;
+}
+
+.scroll {
+    overflow: scroll;
+}
+
+.auto {
+    overflow: auto;
+}
+
+/*Remove a ultrapassagem no menu que fazia clicar no botão no canto superior*/
+#menuInferior td pre {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+/*Coloca o cursor no menu que tenha classe backtab e tab*/
+td .backtab, td .tab {
+    cursor: pointer;
+}
+
+/*Modificados para responsividade e sem img*/
+.grid-bar {
+    height: 22px;
+    background-color: #c6e7e7;
+    border-left: 1px solid #2ba7a7;
+    border-right: 1px solid #2ba7a7;
+    font-family: Trebuchet MS, Verdana, Tahoma;
+    font-size: 11px;
+}
+
+.grid-bar-top {
+    border-top-left-radius: 1em; 
+    border-top-right-radius: 1em;
+    border-top: 1px solid #2ba7a7;
+    background-position: top;
+}
+
+.grid-bar-bottom {
+    border-bottom-left-radius: 1em; 
+    border-bottom-right-radius: 1em;
+    border-bottom: 1px solid #2ba7a7;
+    background-position: bottom;
+}
+
+.fundo_tabela-r {
+    background-color: #F8FCFC;
+    border: 1px solid #2ba7a7;
+    font-family: Trebuchet Ms, Tahoma, Arial, Verdana, Tahoma, Georgia, Arial, Georgia, "Times New Roman", Times, serif;
+    text-decoration: none;
+    font-size: 12px;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(43,167,167,0.63);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(43,167,167,0.63);
+    box-shadow: 0px 2px 5px 0px rgba(43,167,167,0.63);
+}
+
+#pnlGridChamados {
+    overflow-x: auto !important;
+}
+
+/*copiado do boostrap inicio*/
+.form-inline .form-group {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.table {
+    border-collapse: collapse !important;
+}
+
+.table {
+    width: 100%;
+    max-width: 100%;
+}
+
+.table-hover > tbody > tr > td.active:hover,
+.table-hover > tbody > tr > th.active:hover,
+.table-hover > tbody > tr.active:hover > td,
+.table-hover > tbody > tr:hover > .active,
+.table-hover > tbody > tr.active:hover > th {
+    background-color: #c6e7e7;
+}
+
+.table-responsive {
+    min-height: .01%;
+    overflow-x: auto;
+}
+
+.table-responsive {
+    width: 100%;
+    margin-bottom: 15px;
+    overflow-y: hidden;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 1px solid #ddd;
+}
+
+    .table-responsive > .table {
+        margin-bottom: 0;
+    }
+
+        .table-responsive > .table > thead > tr > th,
+        .table-responsive > .table > tbody > tr > th,
+        .table-responsive > .table > tfoot > tr > th,
+        .table-responsive > .table > thead > tr > td,
+        .table-responsive > .table > tbody > tr > td,
+        .table-responsive > .table > tfoot > tr > td {
+            white-space: nowrap;
+        }
+
+.table-bordered th,
+.table-bordered td {
+    border: 1px solid #ddd !important;
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+/*Copiado do boostrap fim*/
+
+.ItensFlex
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.ItensFlex .itensCenter
+{
+    align-items: center;
+}
+
+.ItensFlex .start
+{
+    align-items: flex-start;
+}
+.ItensFlex *
+{
+    margin-bottom:2px;
+    margin-top:2px;
+}
+
+.ItensFlex input[type="button"],
+.ItensFlex input[type="submit"]
+{
+    width:90px;
+    height:20px;
+    border-radius: 2px;
+}
+

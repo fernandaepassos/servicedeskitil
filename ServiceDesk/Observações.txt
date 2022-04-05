@@ -1,0 +1,130 @@
+Algumas idéias de melhoria no sghenus / Método de desenvolvimento / Framework
+
+- Desenvolver no corporativo uma classe / metodo que retorne o status padrão 
+para uma determinada aplicacao.
+
+- Desevolver um add-in no VS ou usar algum software para automatizar a criação de classes
+de negócio (hoje extremamente demorado) ou buscar outra solucao que agilize a criacao das 
+mesmas.
+
+- Desenvolver Add-in no VS que contenha blocos de cogigo prontos para uso. Ex:
+- Instanciação do objeto de banco de dados.
+- Envio de email.
+etc.
+
+- Criar tela de cadastro para a tabela "StatusAplicacao" do corporativo.
+
+- Existe a possibilidade do framwork fazer consultas em tabelas de relacionamentos
+1-N ou n-n diretamente?  Ex. Relacionamento IC - Chamado.
+
+- Implementar a interface IDisposable nos objetos do framework para permitir o uso
+da cláusula "using".
+ex.:
+  Font MyFont3 = new Font("Arial", 10.0f);
+      using (MyFont3)
+      {
+         // Use MyFont3.
+      }   // The compiler will call Dispose on MyFont3.
+
+- Quando Instancio um objeto (no caso uma instancia da classe incidente), e preencho
+os campos deixando alguma data em branco a framework me retorna um erro de conversao de
+string para data. Se o valor padrão do objeto data é "NULL" por quê o framework nao interpreta
+que deve colocar "1900-1-1 00:00:00" no campo?
+Poderia definir que toda a data que é "nula" seria atribuida como DateTime.MinValue 
+(0001-1-1 00:00:00) e o framework trocaria pela data mínima do banco automaticamente.
+
+-- O framework poderia validar os campos marcados como obrigatórios, retornando
+uma mensagem de erro caso nao estejam preenchidos.
+
+===========================================================================
+STATUS: RESOLVIDO
+PRIORIDADE: MEDIA
+QUEM: FERNANDA PASSOS
+QUANDO: 08/12/2005 ÁS 10:17HS
+O QUE: INCLUIR MÉTODO QUE RETORNA TEXTO A PARTIR DE DETERMINA POSIÇÃO PASSADA POR PARAMETRO
+
+CONTEÚDO:
+        #region Retorna texto a partir de determinada posição
+        /// <summary>
+        /// Retorna texto a partir de determinada posição
+        /// </summary>
+        /// <param name="strTexto">Texto a ser pesquisado</param>
+        /// <param name="intPosicao">Número inteiro com a posição do inicia da busca</param>
+        /// <returns>Retorna o texto encontrado</returns>
+        public string GetCaraterPorPosicao(string strTexto, int intPosicao)
+        {
+            strTexto = strTexto.Substring(strTexto.Length - (intPosicao-1), (intPosicao-1));
+            return strTexto;
+        }
+        #endregion
+        
+===========================================================================
+STATUS: RESOLVIDO
+PRIORIDADE: MEDIA
+QUEM: FERNANDA PASSOS
+QUANDO: 08/12/2005 ÁS 10:21HS
+O QUE: INCLUIR MÉTODO QUE RETORNA A POSIÇÃO DO CARACTER DENTRO DE UMA STRING
+
+CONTEÚDO:
+
+        #region Retorna posição do caracter
+        /// <summary>
+        /// Retorna posição do caracter
+        /// </summary>
+        /// <param name="strTexto">Texto onde será pesquisado</param>
+        /// <param name="strCaracter">Caracter que será pesquisado a posição</param>
+        /// <returns>Número inteiro indicando a posição</returns>
+        public int GetPosicaoCaracter(string strTexto, string strCaracter)
+        {
+            int i = 1;
+            int posic = 0;
+
+
+            while (i < strTexto.Length)
+            {
+                if ((strTexto.Substring(strTexto.Length - i, 1)) == strCaracter)
+                    return i;
+                else
+                    posic = 0;
+                i++;
+            }
+            return posic;
+        }
+        #endregion
+        
+        
+================================================================================
+STATUS: EM ABERTO
+PRIORIDADE: ALTA
+QUEM: FLAVIO DA PURIFICAÇÃO
+QUANDO: 03/01/2006 ÁS 18:17HS
+O QUE: INCLUIR NA CAMADA MAIS BAIXA DA FRAMEWOR (INSERIR ATRIBUTO) O MÉTODO REMOVEHTML 
+PARA DISPENSAR A NECESSIDADE DO MESMO NAS CLASSES DE ACESSO A DADOS.
+
+
+================================================================================
+STATUS: EM ABERTO
+PRIORIDADE: ALTA
+QUEM: FERNANDA PASSOA
+QUANDO: 09/01/2006 ÁS 18:17HS
+O QUE: Criação da tabela abaixo para substituição de várias tabelas que relacionam mais de uma tabela.
+
+RelacionamentoProcesso
+
+(
+
+relacionamento_processo_codigo
+
+tabela_origem
+
+identificador_codigo_origem
+
+tabela_destino
+
+identificador_codigo_destino
+
+)
+
+Quem: Henderson
+Onde: Nas mensagens para o usuário apresentar ícones diferenciados para mensagens
+diferencias.

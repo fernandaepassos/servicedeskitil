@@ -1,0 +1,23 @@
+.SplitterLeftPanel {
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	background-color:#397DD0;
+}
+
+.SplitterRightPanel {
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	background-color:#CADBF3;
+}
+
+.SplitterDivider {
+	width:19px;
+	background-image:url('divider.gif');
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+.SplitterResizeBar {
+	width:1px;
+	border-left:1px dotted navy;
+}

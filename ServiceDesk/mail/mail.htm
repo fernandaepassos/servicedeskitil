@@ -1,0 +1,138 @@
+<html>
+<head>
+<style> 
+body{ 
+margin:0;padding:0;background-image:url(images/fundo_p.gif);
+background-position:top left;
+background-repeat:repeat-y; 
+text-align:left; font-family: Trebuchet Ms, Tahoma,  Arial, Verdana, Tahoma, Georgia,  Arial,  Georgia, 'Times New Roman', Times, serif;  
+font-size: 12; 
+}
+
+img{  
+border:0;  
+} 
+
+.texto {  
+font-family: Trebuchet Ms, Tahoma,  Arial, Verdana, Tahoma, Georgia,  Arial,  Georgia, 'Times New Roman', Times, serif;   
+font-size: 11; 
+padding:2; 
+margin: 0 0 0 0; 
+padding: 1px 1px 1px 1px; 
+border: solid 1 #3366CC; 
+}  
+
+.textoPergunta {  
+text-align:left;  
+font-family: Trebuchet Ms, Tahoma,  Arial, Verdana, Tahoma, Georgia,  Arial,  Georgia, 'Times New Roman', Times, serif;   
+font-size: 11;  
+padding:2;  
+width: 100px;  
+margin: 0 0 0 0;  
+padding: 5px 5px 5px 5px;  
+border: solid 1 #3366CC; 
+} 
+
+.TextoValor {   
+width: 100px;   
+margin: 0 0 0 0;   
+padding: 5px 5px 5px 5px;
+}
+
+.TextoValorTabela{  
+width: 750px;  
+margin: 0 0 0 0;  
+padding: 5px 5px 5px 5px; 
+border: solid 1 #3366CC;
+}
+
+.Rodape{
+font-size:12px; 
+color:#FFFFFF;
+background-image:url(images/fundo_h1.jpg); 
+background-color:#1C6BBB; 
+margin:0; 
+padding:5;
+text-align:left; 
+}
+
+h1{
+font-size:12px;
+color:#FFFFFF;
+background-image:url(images/fundo_h1.jpg); 
+background-color:#2BA7A7; 
+margin:0;
+padding:5;
+text-align:left;
+}
+
+form{
+margin:0;
+padding:0;
+}
+.textoPergunta1 {
+text-align:left;  
+font-family: Trebuchet Ms, Tahoma,  Arial, Verdana, Tahoma, Georgia,  Arial,  Georgia, 'Times New Roman', Times, serif;   
+font-size: 11;  
+padding:2;  
+width: 100px;  
+margin: 0 0 0 0;  
+padding: 5px 5px 5px 5px;  
+border: solid 1 #2BA7A7; 
+}
+
+.TextoValorTabela1 {
+width: 100px; 
+background-color:#F0F9F9; 
+margin: 0 0 0 0;  
+padding: 5px 5px 5px 5px;  
+border: solid 1 #2BA7A7;
+}
+
+.textoPergunta2 {
+text-align:left;  
+font-family: Trebuchet Ms, Tahoma,  Arial, Verdana, Tahoma, Georgia,  Arial,  Georgia, 'Times New Roman', Times, serif;   
+font-size: 11;  
+padding:2;  
+width: 100px;  
+margin: 0 0 0 0;  
+padding: 5px 5px 5px 5px;  
+}
+</style>
+</head>
+	<body>
+		<form id='form1' style='margin:0px'>
+		<br>
+		<table width='100%'  border='0' cellspacing='0' cellpadding='0'>
+  			<tr>
+    			<td align='center' valign='top'>
+				<div id='corpo' class='Conteudo' style='width: 750px' align="center">
+			<div id='divMensagem' runat='server'>
+			<h1>Service Desk :: Notifica&ccedil;&atilde;o</h1>
+				<table class='TextoValorTabela1' border='0' cellpadding='0' cellspacing='1' style='width:750px'>
+				  <tr>
+				    <td style='width: 100%;'  class='textoPergunta2'>
+					%Cabecalho%					</td>
+			      </tr>
+				  <tr>
+				    <td style='width: 100%;'  class='textoPergunta2'>
+					%Data%
+					</td>
+			      </tr>
+				  <tr>
+				    <td style='width: 100%; font-weight: bold;'  class='textoPergunta2'>
+					Descri&ccedil;&atilde;o da Notifica&ccedil;&atilde;o:					</td>
+			      </tr>
+				  <tr>
+				    <td style='width: 100%;'  class='textoPergunta2'>
+					  %Descricao%				    </td>
+			      </tr>
+			  </table>
+			</div>
+				</div>			  
+				</td>
+  			</tr>
+		</table>
+		</form>
+	</body>
+</html>

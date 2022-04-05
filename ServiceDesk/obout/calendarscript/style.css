@@ -1,0 +1,113 @@
+.calendarCalendar {
+	background-color:#2BA7A7;
+	text-align:left;
+	width:100%;
+}
+
+.calendarTitle {
+	font:bold 9px Tahoma;
+	text-align:center;
+	color: white;
+	padding:0px;
+	width:100%;
+}
+
+.calendarArrowLeft {
+	font:bold 10px Tahoma;
+	text-align:center;
+	cursor:hand; cursor:pointer;
+	color: white;
+	vertical-align: middle;
+	padding-left:0px;
+}
+
+.calendarArrowRight {
+	font:bold 10px Tahoma;
+	text-align:center;
+	cursor:hand; cursor:pointer;
+	color: white;
+	padding-right:0px;
+}
+
+.calendarMonthContainer {
+	text-align:center;
+	width:100%;
+}
+
+.calendarMonth {
+	margin-left:auto;
+	margin-right:auto;
+	background-color: #86CCCE;
+	width:100%;
+}
+
+.calendarMonthTitle {
+	height: 10px;
+	font: bold 11px Tahoma;
+	color: #ffffff;
+	text-align:center;
+	border: 1px solid #61758E;
+	background-image: url('bgmonthtitle.gif');
+	background-repeat: repeat-x;
+	background-position: center;
+	width:100%;
+}
+
+.calendarDayName {
+	font: bold 9px Verdana;
+	text-align:center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	color: 000000;
+}
+
+.calendarDay {
+	font:10px Tahoma;
+	color: #000000;
+	text-align:center;
+	cursor:hand; cursor:pointer;
+	height: 10px;
+}
+
+.calendarDayToday {
+	font:bold 10px Tahoma;
+	color:white;
+	text-align:center;
+	cursor:hand; cursor:pointer;
+	background-image: url('bgtoday.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 10px;
+}
+
+.calendarDayDisabled {
+	font:10px Tahoma;
+	color:#050E21;
+	text-align:center;
+	height: 10px;
+}
+
+.calendarDaySelected {
+	font:bold 10px Tahoma;
+	color:white;
+	background-image: url('bgsel.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align:center;
+	height: 10px;
+	cursor:hand; cursor:pointer;
+}
+
+.calendarDaySpecial {
+	font:bold 10px Tahoma;
+	color:white;
+	background-image: url('bgspecial.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align:center;
+	height: 10px;
+	cursor:hand; cursor:pointer;
+}
+
+.datePickerButton {
+}
